@@ -14,7 +14,7 @@ echo.
 choice /C YN /M "Do you want to stop and delete windivert"
 if ERRORLEVEL 2 goto :eof
 
-"%~dp0elevator" "%0" del
+"%~dp0elevator" %0 del
 goto :eof
 
 :end
